@@ -1,10 +1,10 @@
-name: Sync Google Drive PDFs
+name: Sync Drive PDFs
 
 on:
   workflow_dispatch:
     inputs:
       subfolder:
-        description: "Nom du sous-dossier à synchroniser (laisser vide pour le dossier racine)"
+        description: "Sous-dossier Drive (laisser vide pour racine)"
         required: false
         type: string
         default: ""
@@ -19,17 +19,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Sync PDFs from Google Drive
-        uses: mekanika-dev/data-sync-actions/google-drive@main
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      - name: Download sync script from private repo
+        run: |
+          # Télécharger le script depuis le repo privé data-sync-actions
+          curl -H "Authorization: token ${{ secrets.DATA_SYNC_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3.raw" \
+               -o sync_drive.py \
+               https://api.github.com/repos/mekanika-dev/data-sync-actions/contents/google-drive/sync.py
+
+          echo "✅ Script téléchargé depuis data-sync-actions"
+
+      - name: Run sync
         env:
-          GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
           DRIVE_DOCS_FOLDER_ID: ${{ secrets.DRIVE_DOCS_FOLDER_ID }}
           SUBFOLDER_NAME: ${{ github.event.inputs.subfolder }}
           TARGET_PATH: ${{ github.event.inputs.target_path }}
-          FILE_TYPES: "pdf" # Uniquement les PDFs
+          FILE_TYPES: "pdf"
+        run: |
+          echo "$GOOGLE_CREDENTIALS" > credentials.json
+          python sync_drive.py
+          rm -f credentials.json
 
       - name: Commit changes
         run: |
@@ -39,11 +61,10 @@ jobs:
           # Ajouter les changements
           git add ${{ github.event.inputs.target_path || 'docs' }}/
 
-          # Commit si il y a des changements
+          # Commit si changements
           if ! git diff --staged --quiet; then
             echo "📝 Des PDFs ont été mis à jour"
             
-            # Message de commit avec détails
             SUBFOLDER="${{ github.event.inputs.subfolder }}"
             if [ -z "$SUBFOLDER" ]; then
               SUBFOLDER="racine"
