@@ -1,0 +1,38 @@
+name: Sync Google Drive Docs
+
+on:
+  # Déclenchement manuel
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Sync from Google Drive
+        uses: mekanika-dev/data-sync-actions/google-drive@main
+        env:
+          GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
+          DRIVE_DOCS_FOLDER_ID: ${{ secrets.DRIVE_DOCS_FOLDER_ID }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+          # Ajouter les changements
+          git add docs/
+
+          # Commit si il y a des changements
+          if ! git diff --staged --quiet; then
+            echo "📝 Des fichiers ont été mis à jour"
+            git commit -m "📚 Update docs from Google Drive
+            
+            Synced at: $(date)"
+            git push
+          else
+            echo "✅ Aucun changement détecté"
+          fi
