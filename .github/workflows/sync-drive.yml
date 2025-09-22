@@ -1,8 +1,18 @@
-name: Sync Google Drive Docs
+name: Sync Google Drive PDFs
 
 on:
-  # Déclenchement manuel
   workflow_dispatch:
+    inputs:
+      subfolder:
+        description: "Nom du sous-dossier à synchroniser (laisser vide pour le dossier racine)"
+        required: false
+        type: string
+        default: ""
+      target_path:
+        description: "Dossier local de destination"
+        required: false
+        type: string
+        default: "docs"
 
 jobs:
   sync:
@@ -12,11 +22,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Sync from Google Drive
+      - name: Sync PDFs from Google Drive
         uses: mekanika-dev/data-sync-actions/google-drive@main
         env:
           GOOGLE_DRIVE_CREDENTIALS: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
           DRIVE_DOCS_FOLDER_ID: ${{ secrets.DRIVE_DOCS_FOLDER_ID }}
+          SUBFOLDER_NAME: ${{ github.event.inputs.subfolder }}
+          TARGET_PATH: ${{ github.event.inputs.target_path }}
+          FILE_TYPES: "pdf" # Uniquement les PDFs
 
       - name: Commit changes
         run: |
@@ -24,14 +37,24 @@ jobs:
           git config user.email "actions@github.com"
 
           # Ajouter les changements
-          git add docs/
+          git add ${{ github.event.inputs.target_path || 'docs' }}/
 
           # Commit si il y a des changements
           if ! git diff --staged --quiet; then
-            echo "📝 Des fichiers ont été mis à jour"
-            git commit -m "📚 Update docs from Google Drive
+            echo "📝 Des PDFs ont été mis à jour"
             
+            # Message de commit avec détails
+            SUBFOLDER="${{ github.event.inputs.subfolder }}"
+            if [ -z "$SUBFOLDER" ]; then
+              SUBFOLDER="racine"
+            fi
+            
+            git commit -m "📚 Update PDFs from Google Drive
+            
+            Source: $SUBFOLDER
+            Target: ${{ github.event.inputs.target_path || 'docs' }}
             Synced at: $(date)"
+            
             git push
           else
             echo "✅ Aucun changement détecté"
