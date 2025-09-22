@@ -14,6 +14,9 @@ on:
         type: string
         default: "docs"
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -31,13 +34,11 @@ jobs:
         run: |
           pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-      - name: Download sync script from private repo
+      - name: Download sync script from public repo
         run: |
-          # Télécharger le script depuis le repo privé data-sync-actions
-          curl -H "Authorization: token ${{ secrets.DATA_SYNC_TOKEN }}" \
-               -H "Accept: application/vnd.github.v3.raw" \
-               -o sync_drive.py \
-               https://api.github.com/repos/mekanika-dev/data-sync-actions/contents/google-drive/sync.py
+          # Télécharger le script depuis le repo public data-sync-actions
+          curl -o sync_drive.py \
+               https://raw.githubusercontent.com/mekanika-dev/data-sync-actions/main/google-drive/sync.py
 
           echo "✅ Script téléchargé depuis data-sync-actions"
 
