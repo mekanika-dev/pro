@@ -1,0 +1,217 @@
+level,component_reference,component_name,component_quantity,parent_bom_reference,parent_bom_name,has_child_bom
+0,M00657,PRO-M [M0 Use],1.00,,,True
+1,M00342,PRO-M - Main Box 1/4,1.00,M00657,PRO-M [M0 Use],True
+2,M00298,PRO - Control Unit,1.00,M00342,PRO-M - Main Box 1/4,True
+3,M00218,CNC Evo/Pro - Steel Parts - Control Unit Base,1.00,M00298,PRO - Control Unit,False
+3,M00219,CNC Evo/Pro - Steel Parts - Control Unit Cover,1.00,M00298,PRO - Control Unit,False
+3,M00367,CNC USB Controller Mk3/4,1.00,M00298,PRO - Control Unit,False
+3,M00368,CNC USB Controller license,1.00,M00298,PRO - Control Unit,False
+3,M00712,Optocoupler 4 channels,1.00,M00298,PRO - Control Unit,False
+3,M00663,MicroSD 32GB Samsung Evo+,1.00,M00298,PRO - Control Unit,False
+3,M00751,SMPS 600W 48V 12.5A (CNC Pro),1.00,M00298,PRO - Control Unit,False
+3,M00931,SMPS 60W 24V 2.8A (CNC Pro/Fab),1.00,M00298,PRO - Control Unit,False
+3,M00853,USB-C 24V to 5V 3A converter,1.00,M00298,PRO - Control Unit,False
+3,M00502,"Ethernet RJ45 female 50cm, panel mount",1.00,M00298,PRO - Control Unit,False
+3,M00542,HDMI (female) panel mount to micro HDMI (male),1.00,M00298,PRO - Control Unit,False
+3,M00619,PRO/FAB - Limit Switches PCB Assembly,1.00,M00298,PRO - Control Unit,True
+4,M00714,PCB Custom for CNC Limit Switches,1.00,M00619,PRO/FAB - Limit Switches PCB Assembly,False
+4,M00841,"ALL - Tapped XLR 3 pole female panel, vertical PCB",6.00,M00619,PRO/FAB - Limit Switches PCB Assembly,True
+5,M00917,"XLR 3 pole female panel, vertical PCB",6.00,M00841,"ALL - Tapped XLR 3 pole female panel, vertical PCB",False
+4,M00790,Screw 2 Way PCB Terminal Block 5mm Pitch,1.00,M00619,PRO/FAB - Limit Switches PCB Assembly,False
+4,M00791,Screwless 4 Way PCB Terminal Block 3.5mm Pitch,1.00,M00619,PRO/FAB - Limit Switches PCB Assembly,False
+3,M00536,"GX12 male 2 pins aux 45cm, panel mount (Emergency Button)",1.00,M00298,PRO - Control Unit,False
+3,M00852,"USB-A male to A female panel mount, 30cm",3.00,M00298,PRO - Control Unit,False
+3,M00073,"Axial Fan 24V 60x60mm, panel mount",1.00,M00298,PRO - Control Unit,False
+3,M00514,Fan cover 60mm,1.00,M00298,PRO - Control Unit,False
+3,M00865,Wago 3 connectors,7.00,M00298,PRO - Control Unit,False
+3,M00866,Wago 5 connectors,4.00,M00298,PRO - Control Unit,False
+3,M01071,Rubber foot M4 - Flat with Rivet,4.00,M00298,PRO - Control Unit,False
+3,M00837,TFHC M4x35 Black screw,4.00,M00298,PRO - Control Unit,False
+3,M01715,ISO 7380 M3x4 Black Screw,40.00,M00298,PRO - Control Unit,False
+3,M00550,Hex spacer M3x16 male/female,2.00,M00298,PRO - Control Unit,False
+3,M00552,Hex spacer M3x30 female/female,2.00,M00298,PRO - Control Unit,False
+3,M00553,Hex spacer M3x8 female/female,8.00,M00298,PRO - Control Unit,False
+3,M01693,ISO 7380 M3x10 Black Screw,12.00,M00298,PRO - Control Unit,False
+3,M00984,Female Banana Socket - Tab Termination,1.00,M00298,PRO - Control Unit,False
+3,M01077,"GX12 male 3 pins aux 45cm, panel mount (Probe)",1.00,M00298,PRO - Control Unit,False
+3,M01702,Nut DIN934 M4,10.00,M00298,PRO - Control Unit,False
+3,M00739,Raspberry Pi 4B 2G,1.00,M00298,PRO - Control Unit,False
+3,M00540,"GX12 male 5 pins output 45cm, panel mount (VFD, Laser)",2.00,M00298,PRO - Control Unit,False
+3,M00537,"GX12 male 2 pins aux 45cm, panel mount (Safety Enclosure)",2.00,M00298,PRO - Control Unit,False
+3,M00530,Fuse T slow 10A,1.00,M00298,PRO - Control Unit,False
+3,M00744,"Rocker switch DPST, panel mount",1.00,M00298,PRO - Control Unit,False
+3,M00689,Motor Driver 2DM556S - PRO,4.00,M00298,PRO - Control Unit,False
+3,M01729,"Dust Filter Mesh (""M""), 7cmx7cmx0.375mm, 0.5mm aperture",1.00,M00298,PRO - Control Unit,False
+3,M00918,"XLR 4 pole female panel M3, Pre-wired 18cm breakout",4.00,M00298,PRO - Control Unit,False
+3,M00559,IDC Adapter PCB & Ribbon - 10-pin - 90°,4.00,M00298,PRO - Control Unit,False
+3,M01070,Insulated Crimp Bootlace Ferrule,4.00,M00298,PRO - Control Unit,False
+3,M00107,C14 Panel Mount 10A fuse,1.00,M00298,PRO - Control Unit,False
+3,M01697,DIN912 M4x12 Black screw,6.00,M00298,PRO - Control Unit,False
+3,M00851,USB-A USB-B cable 30cm Elbow type,1.00,M00298,PRO - Control Unit,False
+3,M00407,Coloured Washer M3 - Blue,2.00,M00298,PRO - Control Unit,False
+3,M00408,Coloured Washer M3 - Green,3.00,M00298,PRO - Control Unit,False
+3,M00409,Coloured Washer M3 - Red,3.00,M00298,PRO - Control Unit,False
+3,M00410,Coloured Washer M3 - Yellow,2.00,M00298,PRO - Control Unit,False
+3,M00718,PWM to Analog Voltage Converter 0-10V,1.00,M00298,PRO - Control Unit,False
+2,M00343,PRO-M - Mechanical Elements Box,1.00,M00342,PRO-M - Main Box 1/4,True
+3,M00063,Angle Bracket 60 B-Type Groove 8,10.00,M00343,PRO-M - Mechanical Elements Box,False
+3,M00621,Linear Block - H20B,6.00,M00343,PRO-M - Mechanical Elements Box,False
+3,M00622,Linear Block - W20A Block (Flange),4.00,M00343,PRO-M - Mechanical Elements Box,False
+3,M00704,Nut Housing DSG16H,4.00,M00343,PRO-M - Mechanical Elements Box,False
+3,M00511,FF12 Bearing Support,4.00,M00343,PRO-M - Mechanical Elements Box,False
+3,M00512,FK12 Bearing Support,4.00,M00343,PRO-M - Mechanical Elements Box,False
+3,M00301,PRO - DIN912 M4x12 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M01697,DIN912 M4x12 Black screw,7.00,M00301,PRO - DIN912 M4x12 Black screw Bag,False
+3,M00302,PRO - DIN912 M4x16 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M01698,DIN912 M4x16 Black screw,2.00,M00302,PRO - DIN912 M4x16 Black screw Bag,False
+3,M00303,PRO - DIN912 M4x20 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00430,DIN912 M4x20 Black screw,4.00,M00303,PRO - DIN912 M4x20 Black screw Bag,False
+3,M00304,PRO - DIN912 M4x45 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00432,DIN912 M4x45 Black Screw,11.00,M00304,PRO - DIN912 M4x45 Black screw Bag,False
+3,M00305,PRO - DIN912 M4x55 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00433,DIN912 M4x55 Black Screw,15.00,M00305,PRO - DIN912 M4x55 Black screw Bag,False
+3,M00306,PRO - DIN912 M5x12 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00435,DIN912 M5x12 Black screw,23.00,M00306,PRO - DIN912 M5x12 Black screw Bag,False
+3,M00307,PRO - DIN912 M5x25 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00439,DIN912 M5x25 Black screw,15.00,M00307,PRO - DIN912 M5x25 Black screw Bag,False
+3,M00308,PRO - DIN912 M5x40 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00442,DIN912 M5x40 Black screw,15.00,M00308,PRO - DIN912 M5x40 Black screw Bag,False
+3,M00309,PRO - DIN912 M6x10 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M01716,DIN912 M6x10 Black screw,5.00,M00309,PRO - DIN912 M6x10 Black screw Bag,False
+3,M00310,PRO - DIN912 M6x16 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M01704,DIN912 M6x16 Black screw,71.00,M00310,PRO - DIN912 M6x16 Black screw Bag,False
+3,M00311,PRO - DIN912 M6x20 Black screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00451,DIN912 M6x20 Black screw,46.00,M00311,PRO - DIN912 M6x20 Black screw Bag,False
+3,M01646,PRO - DIN912 M6x25 Screw Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M01748,DIN912 M6x25 Black screw,4.00,M01646,PRO - DIN912 M6x25 Screw Bag,False
+3,M00312,PRO - I-Type Sliding Nut M4 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00554,I-Type Sliding Nut M4,3.00,M00312,PRO - I-Type Sliding Nut M4 Bag,False
+3,M00315,PRO - Lock Nut DIN985 M5 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00632,Lock Nut DIN985 M5,15.00,M00315,PRO - Lock Nut DIN985 M5 Bag,False
+3,M00316,PRO - Lock Nut DIN985 M6 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00630,Lock Nut DIN985 M6,4.00,M00316,PRO - Lock Nut DIN985 M6 Bag,False
+3,M00314,PRO - Lock Nut DIN985 M4 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00629,Lock Nut DIN985 M4,38.00,M00314,PRO - Lock Nut DIN985 M4 Bag,False
+3,M00313,PRO - I-Type Sliding Nut M6 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00556,I-Type Sliding Nut M6,71.00,M00313,PRO - I-Type Sliding Nut M6 Bag,False
+3,M00299,PRO - DIN9021 Washer M4x12 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00423,DIN9021 Washer M4x12,15.00,M00299,PRO - DIN9021 Washer M4x12 Bag,False
+3,M00300,PRO - DIN9021 Washer M6x18 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M01694,DIN9021 Washer M6x18,40.00,M00300,PRO - DIN9021 Washer M6x18 Bag,False
+3,M00317,PRO - Spacer Bag - M5x19,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00795,Spacer M5x19mm,26.00,M00317,PRO - Spacer Bag - M5x19,False
+3,M00318,PRO - Spacer Bag - M5x30,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00796,Spacer M5x30mm,14.00,M00318,PRO - Spacer Bag - M5x30,False
+3,M00319,PRO - Spacer Bag - M6x90,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00800,Spacer M6x90mm,3.00,M00319,PRO - Spacer Bag - M6x90,False
+3,M00321,PRO - Mounting Tools Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00023,Allen Key 2mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00022,"Allen Key 2,5mm",1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00024,Allen Key 3mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00025,Allen Key 4mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00026,Allen Key 5mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00027,Allen Key 6mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00806,Spanner 7mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00807,Spanner 8mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M00801,Spanner 10mm,1.00,M00321,PRO - Mounting Tools Bag,False
+4,M01681,PRO - Acrylic Parts - L-shape Assembly Gauge,1.00,M00321,PRO - Mounting Tools Bag,True
+5,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.02,M01681,PRO - Acrylic Parts - L-shape Assembly Gauge,False
+4,M01682,PRO - Acrylic Parts - U-shape Assembly Gauge,1.00,M00321,PRO - Mounting Tools Bag,True
+5,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",0.02,M01682,PRO - Acrylic Parts - U-shape Assembly Gauge,False
+3,M00320,PRO - Miscellaneous Components Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00707,Nylon Cap HP-30,3.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00389,Cable Tie 100mm x 2.5 mm,10.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00354,CNC Pro/Fab - Steel Parts - Nut Offset,4.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00364,CNC Pro/Fab - Steels Parts - Bearing Support Offset Plate,4.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00322,CNC Pro - Steel Parts - Cable Chain Holder,2.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00380,Cable Chain TP15 End Connector (Female),2.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00381,Cable Chain TP15 End Connector (Male),2.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00518,Flexible Motor Coupler D25L30 - 6.35mm to 10mm,4.00,M00320,PRO - Miscellaneous Components Bag,False
+4,M00887,Wood screw 4x25mm,4.00,M00320,PRO - Miscellaneous Components Bag,False
+3,M00339,PRO-M - I-Type Sliding Nut M5 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00555,I-Type Sliding Nut M5,74.00,M00339,PRO-M - I-Type Sliding Nut M5 Bag,False
+3,M00337,PRO-M - Black screw DIN912 M5x16 Bag,1.00,M00343,PRO-M - Mechanical Elements Box,True
+4,M00437,DIN912 M5x16 Black screw,92.00,M00337,PRO-M - Black screw DIN912 M5x16 Bag,False
+2,M00338,PRO-M - Electronic Components box,1.00,M00342,PRO-M - Main Box 1/4,True
+3,M01250,PRO-M - Motor Cables,1.00,M00338,PRO-M - Electronic Components box,True
+4,M00344,PRO-M - BELRAM Motor Cables,1.00,M01250,PRO-M - Motor Cables,True
+5,M00667,"Motor Cable X 250cm, Red (Pro-M/L)",1.00,M00344,PRO-M - BELRAM Motor Cables,False
+5,M00673,"Motor Cable Y1 170cm, Green (Pro-M/L)",1.00,M00344,PRO-M - BELRAM Motor Cables,False
+5,M00683,"Motor Cable Z 360cm, Blue (Pro-M)",1.00,M00344,PRO-M - BELRAM Motor Cables,False
+5,M00676,"Motor Cable Y2 240cm, Yellow (Pro-M)",1.00,M00344,PRO-M - BELRAM Motor Cables,False
+4,M00977,"Cable Tie 385mm x 4.8 mm, Green",1.00,M01250,PRO-M - Motor Cables,False
+4,M00659,Micro-Fit 3.0 Female Connector Housing,4.00,M01250,PRO-M - Motor Cables,False
+4,M00661,Micro-Fit Female Crimp Terminal Contact,14.00,M01250,PRO-M - Motor Cables,False
+3,M00696,ALL - Nema23 Motor,4.00,M00338,PRO-M - Electronic Components box,True
+4,M00697,Nema23 Stepper Motor 5A 6.35mm Shaft,4.00,M00696,ALL - Nema23 Motor,False
+4,M00660,Micro-Fit 3.0 Male Connector Housing,4.00,M00696,ALL - Nema23 Motor,False
+4,M00662,Micro-Fit Male Crimp Terminal Contact,14.00,M00696,ALL - Nema23 Motor,False
+3,M00340,PRO-M - Inductive Sensor Cables,1.00,M00338,PRO-M - Electronic Components box,True
+4,M00587,Inductive Sensor Cable Y2- 170cm Yellow (Pro-S/M),1.00,M00340,PRO-M - Inductive Sensor Cables,True
+5,M00569,Inductive Sensor Cable Unterminated 120cm,1.00,M00587,Inductive Sensor Cable Y2- 170cm Yellow (Pro-S/M),False
+4,M00586,Inductive Sensor Cable Y1- 130cm Green (Pro-S/M/L),1.00,M00340,PRO-M - Inductive Sensor Cables,True
+5,M00569,Inductive Sensor Cable Unterminated 120cm,1.00,M00586,Inductive Sensor Cable Y1- 130cm Green (Pro-S/M/L),False
+4,M00585,Inductive Sensor Cable Y1+ 170cm Green (Pro-M/L),1.00,M00340,PRO-M - Inductive Sensor Cables,True
+5,M00576,Inductive Sensor Cable Unterminated 160cm,1.00,M00585,Inductive Sensor Cable Y1+ 170cm Green (Pro-M/L),False
+4,M00580,Inductive Sensor Cable X+ 350cm Red (Pro-M),1.00,M00340,PRO-M - Inductive Sensor Cables,True
+5,M00571,Inductive Sensor Cable Unterminated 350cm,1.00,M00580,Inductive Sensor Cable X+ 350cm Red (Pro-M),False
+4,M00583,Inductive Sensor Cable X- 240cm Red (Pro-M/L),1.00,M00340,PRO-M - Inductive Sensor Cables,True
+5,M00572,Inductive Sensor Cable Unterminated 240cm,1.00,M00583,Inductive Sensor Cable X- 240cm Red (Pro-M/L),False
+4,M00589,Inductive Sensor Cable Z+ 370cm Blue (Pro-M),1.00,M00340,PRO-M - Inductive Sensor Cables,True
+5,M00577,Inductive Sensor Cable Unterminated 370cm,1.00,M00589,Inductive Sensor Cable Z+ 370cm Blue (Pro-M),False
+4,M01000,CNC Pro-M - Belram lot of Sensor Cables,1.00,M00340,PRO-M - Inductive Sensor Cables,False
+4,M00977,"Cable Tie 385mm x 4.8 mm, Green",1.00,M00340,PRO-M - Inductive Sensor Cables,False
+4,M00975,"Cable Tie 200mm x 4.6 mm, Orange",1.00,M00340,PRO-M - Inductive Sensor Cables,False
+3,M00591,"Inductive Sensor PNP NC, M12",6.00,M00338,PRO-M - Electronic Components box,False
+3,M01078,Touch Probe Z Device (3-pins model),1.00,M00338,PRO-M - Electronic Components box,False
+3,M00482,Emergency Stop Button 1NC,1.00,M00338,PRO-M - Electronic Components box,False
+3,M00007,"Power Cable C13 IEC to CEE 7/4, Schuko, 2m, 10 A, 250 V",1.00,M00338,PRO-M - Electronic Components box,False
+3,M00848,USB Key 2Gb,1.00,M00338,PRO-M - Electronic Components box,False
+2,M00823,Square Plate - First CNC Test,1.00,M00342,PRO-M - Main Box 1/4,False
+2,M00215,EVO/PRO - Interface Unit,1.00,M00342,PRO-M - Main Box 1/4,True
+3,M00189,CNC Evo/Pro - Steel Parts - Interface Unit Base,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00190,CNC Evo/Pro - Steel Parts - Interface Unit Cover,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00011,"7"" LCD Touch Screen 1024x600 TFT",1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00700,Numeric Keypad 34 Keys,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M01715,ISO 7380 M3x4 Black Screw,8.00,M00215,EVO/PRO - Interface Unit,False
+3,M00842,Tooth Lock Washer DIN6798 M6 Type A Black,8.00,M00215,EVO/PRO - Interface Unit,False
+3,M01698,DIN912 M4x16 Black screw,2.00,M00215,EVO/PRO - Interface Unit,False
+3,M01704,DIN912 M6x16 Black screw,2.00,M00215,EVO/PRO - Interface Unit,False
+3,M00543,HDMI Cable Male/Male 1.5m,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00849,USB-A Micro USB Cable 1.5m,1.00,M00215,EVO/PRO - Interface Unit,False
+3,M01637,INT - Fixation Bag,1.00,M00215,EVO/PRO - Interface Unit,True
+4,M01636,Spacer M6x16,2.00,M01637,INT - Fixation Bag,False
+4,M01694,DIN9021 Washer M6x18,2.00,M01637,INT - Fixation Bag,False
+4,M00556,I-Type Sliding Nut M6,2.00,M01637,INT - Fixation Bag,False
+4,M01748,DIN912 M6x25 Black screw,2.00,M01637,INT - Fixation Bag,False
+3,M00716,"PMMA Sheet 3mm 600x400mm, Light Blue",1.00,M00215,EVO/PRO - Interface Unit,False
+3,M00461,"Disc Magnet Ø 10mm, height 3mm",3.00,M00215,EVO/PRO - Interface Unit,False
+3,M01675,DIN912 M4x25 Black screw,2.00,M00215,EVO/PRO - Interface Unit,False
+3,M01534,Male USB-A to Male USB-C Cable 150cm,1.00,M00215,EVO/PRO - Interface Unit,False
+1,M00225,EVO/PRO-M - Structure Box 2/2,1.00,M00657,PRO-M [M0 Use],True
+2,M00055,Alu Profile V-3030 (240mm) [1x M6 thread on BOTH sides],2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00039,Alu Profile I-6030 (620 mm),2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00035,Alu Profile I-6030 (1170 mm),3.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00057,Alu Profile V-6060 (830 mm) [4x M6 threads on BOTH sides],1.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00056,Alu Profile V-6060 (1230 mm) [4x M6 threads on BOTH sides],2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+2,M00374,Cable Chain 900mm (Evo/Pro-S/M/L),2.00,M00225,EVO/PRO-M - Structure Box 2/2,False
+1,M00341,PRO-M - Linear Motion Box 3/4,1.00,M00657,PRO-M [M0 Use],True
+2,M00057,Alu Profile V-6060 (830 mm) [4x M6 threads on BOTH sides],1.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00082,Ballscrew SFU1610 1200mm & Nut,2.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00083,Ballscrew SFU1610 800mm & Nut,1.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00081,Ballscrew SFU1605 250mm & Nut,1.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00623,Linear Rail HGR20 (1200mm),2.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00625,Linear Rail HGR20 (800mm),2.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00624,Linear Rail HGR20 (200mm),2.00,M00341,PRO-M - Linear Motion Box 3/4,False
+2,M00070,"PRO - Anti-slip Cover, I-type Alu Profile 1200mm",4.00,M00341,PRO-M - Linear Motion Box 3/4,True
+3,M00069,"Anti-slip Cover, I-type Alu Profile",4.80,M00070,"PRO - Anti-slip Cover, I-type Alu Profile 1200mm",False
+2,M00385,PRO-S/M – Cable Cover for I-type 6 Profile 800mm,1.00,M00341,PRO-M - Linear Motion Box 3/4,True
+3,M00383,Cable Cover for I-type 6 Profile (2m),0.40,M00385,PRO-S/M – Cable Cover for I-type 6 Profile 800mm,False
+2,M00294,CNC Pro - 2020 Profile Assembly Gauge - 200mm,2.00,M00341,PRO-M - Linear Motion Box 3/4,False
+1,M00325,PRO - Steel Parts Box 4/4,1.00,M00657,PRO-M [M0 Use],True
+2,M00323,CNC Pro - Steel Parts - Y Foot Frame,4.00,M00325,PRO - Steel Parts Box 4/4,False
+2,M00324,CNC Pro - Steel Parts - Y Gantry,2.00,M00325,PRO - Steel Parts Box 4/4,False
+2,M00360,CNC Pro/Fab - Steel Parts - X Nut,1.00,M00325,PRO - Steel Parts Box 4/4,False
+2,M00358,CNC Pro/Fab - Steel Parts - Z-Axis Bottom Bearing Plate,1.00,M00325,PRO - Steel Parts Box 4/4,False
+2,M00361,CNC Pro/Fab - Steel Parts - Z Plate,1.00,M00325,PRO - Steel Parts Box 4/4,False
+2,M00359,CNC Pro/Fab - Steel Parts - Z-axis Top Motor Plate,1.00,M00325,PRO - Steel Parts Box 4/4,False
