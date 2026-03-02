@@ -1,0 +1,20 @@
+level,component_reference,component_name,component_quantity,parent_bom_reference,parent_bom_name,has_child_bom
+0,M00353,VFD - 2.2kW Inverter Control Unit,1.00,,,True
+1,M00004,220V Inverter,1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00355,CNC Pro/Fab - Steel Parts - VFD Base,1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00356,CNC Pro/Fab - Steel Parts - VFD Cover,1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00406,Circuit Breaker 15A 250V AC,1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00720,"Panel Mount IEC C14 Connector with RFI Filter, 15A 250V",1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00540,"GX12 male 5 pins output 45cm, panel mount (VFD, Laser)",1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00010,"5V Relay Module, 1 Channel",1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00866,Wago 5 connectors,1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M01697,DIN912 M4x12 Black screw,4.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00746,Rubber foot M4,4.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M01702,Nut DIN934 M4,8.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M01715,ISO 7380 M3x4 Black Screw,6.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00744,"Rocker switch DPST, panel mount",1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00809,Speakon Connector Panel Mount,1.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M01237,"Blue Insulated Female Spade Connector, Receptacle, 4.8 x 0.5mm Tab Size, 1.5mm² to 2.5mm²",3.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M00527,"Fork Spade Terminal 0.5mm² to 1.5mm², 22AWG to 16AWG, M4 Stud Size",3.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M01533,"Dust Filter Mesh, 13cmx20cmx0.375mm, 0.5mm aperture",2.00,M00353,VFD - 2.2kW Inverter Control Unit,False
+1,M01698,DIN912 M4x16 Black screw,4.00,M00353,VFD - 2.2kW Inverter Control Unit,False
